@@ -50,10 +50,13 @@ footer a:link, footer a:visited {
   margin-left: auto;
   text-align: center;
 }
+ 
 
 .tm-navbar-menu:hover {
   color: #950000;
   text-decoration: none;
+  background: #f1f1f1;
+  border-radius: 25% 0 25% 0;
 }
 
 .tm-nav {
@@ -76,11 +79,19 @@ footer a:link, footer a:visited {
 }
 
 .tm-nav-item.active .tm-nav-link,
-.tm-nav-link:hover,
+
 .tm-nav-link:focus {
   text-decoration: none;
   color: #950000;
+  
 }
+.tm-nav-link:hover {
+  color: #950000;
+  text-decoration: none;
+  background: #f1f1f1;
+  border-radius: 25% 0 25% 0;
+}
+
 
 .tm-bg-dark {
   background: rgba(0, 0, 0, 0.7);
@@ -172,7 +183,18 @@ footer a:link, footer a:visited {
   margin-bottom: 30px;
   margin-left: 95px;
 }
-
+.logo {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 95px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
 footer {
   font-weight: 300;
   margin-bottom: 30px;
@@ -651,3 +673,5 @@ figure.effect-goliath:hover p {
 .tm-static {
   position: static;
 }
+/* ---- */
+
